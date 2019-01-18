@@ -3,7 +3,9 @@ def reformat_languages(languages)
   languages.each do |style, language|
     language.each do |name, type_info|
       type_info.each do |type, int_or_comp|
-        if new_hash[name] 
+        if new_hash[name].nil?
+          
+        end
       end
     end 
   end
